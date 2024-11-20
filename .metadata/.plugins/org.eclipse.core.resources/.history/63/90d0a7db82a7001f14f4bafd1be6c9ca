@@ -1,0 +1,9 @@
+package primeiroProgramaJava;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+System.out.println("MeuPrimeiro Programa em Java!");
+	}
+
+}
