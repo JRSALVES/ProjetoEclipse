@@ -1,4 +1,4 @@
-package AulaTeste;
+package AulaIntrudotoria;
 
 public class Pessoa {
 	private int id;

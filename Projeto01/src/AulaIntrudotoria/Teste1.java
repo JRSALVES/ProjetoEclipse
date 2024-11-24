@@ -1,4 +1,4 @@
-package AulaTeste;
+package AulaIntrudotoria;
 
 public class Teste1 {
 
