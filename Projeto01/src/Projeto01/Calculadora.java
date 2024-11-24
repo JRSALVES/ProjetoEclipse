@@ -1,4 +1,4 @@
-package rojeto01;
+package Projeto01;
 
 public class Calculadora {
 

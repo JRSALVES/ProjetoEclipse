@@ -11,7 +11,7 @@ public class Teste1 {
         // Set attributes
         jeruso.setName("Jeruso Alves Nascimento");
         jeruso.setAge(57);
-        jeruso.setEmail("jerusoalves@gmail.com");
+        jeruso.setEmail("jerusoalves@gmail.com\n");
 
         // Output the attributes
         System.out.println("Nome: " + jeruso.getName());
@@ -26,6 +26,6 @@ public class Teste1 {
         produto1.setDisponivel(true);
         
         
-        System.out.println("Comprou: " + produto1.getDescricao() +", pagou "+ produto1.getValor() + ", Ainda tem?  "+produto1.getDescricao()+" = "+ produto1.isDisponivel());
+        System.out.println("Comprou: " + produto1.getDescricao() +", pagou "+ produto1.getValor() + ", Ainda tem " +produto1.getDescricao()+"?" + " = "+ produto1.isDisponivel());
     }
 }
