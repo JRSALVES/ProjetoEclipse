@@ -17,5 +17,15 @@ public class Teste1 {
         System.out.println("Nome: " + jeruso.getName());
         System.out.println("Idade: " + jeruso.getAge());
         System.out.println("Email: " + jeruso.getEmail());
+        
+        
+        Produto produto1 = new Produto();
+        
+        produto1.setDescricao("Laranja");
+        produto1.setValor(0.50);
+        produto1.setDisponivel(true);
+        
+        
+        System.out.println("Comprou: " + produto1.getDescricao() +", pagou "+ produto1.getValor() + ", Ainda tem?  "+produto1.getDescricao()+" = "+ produto1.isDisponivel());
     }
 }
